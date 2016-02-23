@@ -14,6 +14,8 @@
 		2468ABAD1C7C3A94001E4F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2468ABAB1C7C3A94001E4F78 /* LaunchScreen.storyboard */; };
 		2468ABB81C7C3A94001E4F78 /* WKWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468ABB71C7C3A94001E4F78 /* WKWebViewTests.swift */; };
 		2468ABC31C7C3A94001E4F78 /* WKWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468ABC21C7C3A94001E4F78 /* WKWebViewUITests.swift */; };
+		2468ABD11C7C689C001E4F78 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468ABD01C7C689C001E4F78 /* WebViewController.swift */; };
+		2468ABD31C7C7548001E4F78 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 2468ABD21C7C7548001E4F78 /* resource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2468ABBE1C7C3A94001E4F78 /* WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2468ABC21C7C3A94001E4F78 /* WKWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUITests.swift; sourceTree = "<group>"; };
 		2468ABC41C7C3A95001E4F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2468ABD01C7C689C001E4F78 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		2468ABD21C7C7548001E4F78 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		2468ABA11C7C3A94001E4F78 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				2468ABD21C7C7548001E4F78 /* resource */,
+				2468ABD01C7C689C001E4F78 /* WebViewController.swift */,
 				2468ABA21C7C3A94001E4F78 /* AppDelegate.swift */,
 				2468ABA41C7C3A94001E4F78 /* ViewController.swift */,
 				2468ABA61C7C3A94001E4F78 /* Main.storyboard */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2468ABD31C7C7548001E4F78 /* resource in Resources */,
 				2468ABAD1C7C3A94001E4F78 /* LaunchScreen.storyboard in Resources */,
 				2468ABAA1C7C3A94001E4F78 /* Assets.xcassets in Resources */,
 				2468ABA81C7C3A94001E4F78 /* Main.storyboard in Resources */,
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2468ABA51C7C3A94001E4F78 /* ViewController.swift in Sources */,
+				2468ABD11C7C689C001E4F78 /* WebViewController.swift in Sources */,
 				2468ABA31C7C3A94001E4F78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
